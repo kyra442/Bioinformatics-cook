@@ -1,0 +1,2 @@
+dna_sequence = 'ATCGATCGA'
+print (dna_sequence)
