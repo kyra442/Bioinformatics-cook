@@ -1,0 +1,3 @@
+dna = 'AGCTATAG'
+count_a = dna.count('A')
+print (count_a)
