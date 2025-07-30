@@ -1,0 +1,3 @@
+dna = 'AGCTATAG'
+reverse = dna [::-1]
+print (reverse)
