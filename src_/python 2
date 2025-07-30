@@ -1,0 +1,3 @@
+dna = 'AGCTATAG'
+length = len (dna)
+print (length)
