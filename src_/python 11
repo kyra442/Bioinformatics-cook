@@ -1,0 +1,3 @@
+list = ['BRCA1','TP53','EGFR']
+for gene in list:
+  print(gene)
