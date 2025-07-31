@@ -1,0 +1,2 @@
+dict = {'BRCA1':'17','TP53':'17','EGFR':'7'}
+print (dict["EGFR"])
