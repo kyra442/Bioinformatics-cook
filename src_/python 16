@@ -1,0 +1,10 @@
+#方法一
+f = open('sequences.fasta','r')
+content = f.read()
+f.close()
+print(content)
+
+#方法二
+with open ('sequences.fasta','r') as f :
+  content = f.read()
+print(content)
