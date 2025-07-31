@@ -1,0 +1,4 @@
+dna = 'AGCTATAG'
+complement_base = {'A':'T','T':'A','C':'G','G':'C'}
+complement_sequence = ''.join(complement_base[base] for base in dna)
+print (complement_sequence)
