@@ -1,0 +1,11 @@
+def calculate_gc_content (dna_sequence):
+  if not dna_sequence:
+    return 0.0
+  upper_sequence = dna_sequence.upper()
+  g_content = upper_sequence.count('G')
+  c_content = upper_sequence.count('C')
+  total_length = len(upper_sequence)
+  cg_content = (g_content + c_content)/total_length
+  return round(cg_content, 2)
+
+calculate_gc_content ('AGCTGCGTATAG')
