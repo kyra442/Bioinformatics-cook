@@ -1,0 +1,2 @@
+list = ["BRCA1", "TP53", "EGFR"]
+print (list[1])
