@@ -1,0 +1,12 @@
+# if/elif/else 的使用
+if的条件语句如果成立的话，会执行if后缩进的程序内容。如果if条件语句不成立，会继续向后判断elif条件语句是否成立。如果成立则执行elif后缩进的命令，如果不成立则执行else后缩进的语句。
+
+ def dna_sequence_check (dna_input):
+...     upper_dna = dna_input.upper()
+...     stripped_dna = upper_dna.strip()
+...     if not stripped_dna:
+...         print('DNA序列为空')
+...     elif 'N' in stripped_dna:
+...         print('DNA序列中有不确定碱基')
+...     else:
+...         print('DNA序列中的碱基都为确定碱基')
