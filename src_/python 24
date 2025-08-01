@@ -1,0 +1,6 @@
+def rna_seq (dna_seq):
+  list_comprehension = [base.replace('T','U') for base in dna_seq]
+  rna = ''.join (list_comprehension)
+  print (rna)
+
+rna_seq('ATCGCGATGGCTAGCTG')
