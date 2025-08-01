@@ -1,0 +1,5 @@
+try:
+  with open ('nihao','r') as f:
+    f.read()
+except:
+  print('代码出现错误')
