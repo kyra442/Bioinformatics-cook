@@ -1,0 +1,6 @@
+def line_count (file_name):
+  with open(file_name,'r') as f:
+    count = 0
+    for line in f:
+      count+=1
+    return count
