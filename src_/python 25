@@ -1,0 +1,6 @@
+def base_count (dna_seq):
+  dna_dict = {'A':0,'T':0,'C':0,'G':0}
+  for base in dna_seq:
+    if base in dna_dict:
+      dna_dict[base] +=1
+  return dna_dict
