@@ -1,0 +1,10 @@
+def feature_count (filename):
+  with open (filename,'r') as f:
+    gene_count = 0
+    exon_count = 0
+    for line in f:
+      if 'gene' in line:
+        gene_count +=1
+      if 'exon'  in line:
+        exon_count +=1
+    print (gene_count, exon_count)
